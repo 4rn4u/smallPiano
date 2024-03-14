@@ -1,23 +1,57 @@
-const display = document.querySelector(".display");
-const buttons = document.querySelectorAll("button");
+const auddo = new Audio(sounds/);
+const audre = new Audio("https://www.fesliyanstudios.com/play-mp3/387");
+const audmi = new Audio("https://www.fesliyanstudios.com/play-mp3/387");
+const audfa = new Audio("https://www.fesliyanstudios.com/play-mp3/387");
+const audsol = new Audio("https://www.fesliyanstudios.com/play-mp3/387");
+const audla = new Audio("https://www.fesliyanstudios.com/play-mp3/387");
+const audsi = new Audio("https://www.fesliyanstudios.com/play-mp3/387");
+const audDO = new Audio("https://www.fesliyanstudios.com/play-mp3/387");
 
-const specialChars = ["%", "*", "/", "-", "+", "="];
-let output = "";
+const do = document.querySelectorAll(".do");
+const re = document.querySelectorAll(".re");
+const mi = document.querySelectorAll(".mi");
+const fa = document.querySelectorAll(".fa");
+const sol = document.querySelectorAll(".sol");
+const la = document.querySelectorAll(".la");
+const si = document.querySelectorAll(".si");
+const DO = document.querySelectorAll(".DO");
 
-const calculate = (btnValue) => {
-    if (btnValue === "=" && output !== ""){
-        output = eval(output.replace("%", "/100"));
-    } else if (btnValue === "AC"){
-        output = "";
-    } else if (btnValue === "DEL"){
-        output.toString().slice(0,-1);
-    } else {
-        if (output === "" && specialChars.includes(btnValue)) return;
-        output += btnValue;
-    }
-    display.value = output;
-};
+do.forEach((button) => {
+    do.addEventListener("clickk", () => {
+    auddo.play();
+});
 
 buttons.forEach((button) => {
-    button.addEventListener("click", (e) => calculate(e.target.dataset.value));
+    re.addEventListener("click", () => {
+    audio.play();
+});
+
+buttons.forEach((button) => {
+    button.addEventListener("click", () => {
+    audio.play();
+});
+
+buttons.forEach((button) => {
+    button.addEventListener("click", () => {
+    audio.play();
+});
+
+buttons.forEach((button) => {
+    button.addEventListener("click", () => {
+    audio.play();
+});
+
+buttons.forEach((button) => {
+    button.addEventListener("click", () => {
+    audio.play();
+});
+
+buttons.forEach((button) => {
+    button.addEventListener("click", () => {
+    audio.play();
+});
+
+buttons.forEach((button) => {
+    button.addEventListener("click", () => {
+    audio.play();
 });
