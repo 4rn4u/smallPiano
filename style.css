@@ -24,6 +24,8 @@
 .text {
     position: fixed;
     height: 85vh;
+    font-family: Zapfino;
+    color: rgb(85, 13, 134);
 }
 
 body {
