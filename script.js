@@ -1,13 +1,13 @@
-const auddo = new Audio(sounds/);
-const audre = new Audio("https://www.fesliyanstudios.com/play-mp3/387");
-const audmi = new Audio("https://www.fesliyanstudios.com/play-mp3/387");
-const audfa = new Audio("https://www.fesliyanstudios.com/play-mp3/387");
-const audsol = new Audio("https://www.fesliyanstudios.com/play-mp3/387");
-const audla = new Audio("https://www.fesliyanstudios.com/play-mp3/387");
-const audsi = new Audio("https://www.fesliyanstudios.com/play-mp3/387");
-const audDO = new Audio("https://www.fesliyanstudios.com/play-mp3/387");
+const auddo = new Audio("./sounds/DoGr.mp3");
+const audre = new Audio("./sounds/Re.mp3");
+const audmi = new Audio("./sounds/Mi.mp3");
+const audfa = new Audio("./sounds/Fa.mp3");
+const audsol = new Audio("./sounds/Sol.mp3");
+const audla = new Audio("./sounds/La.mp3");
+const audsi = new Audio("./sounds/Si.mp3");
+const audDO = new Audio("./sounds/DoAg.mp3");
 
-const do = document.querySelectorAll(".do");
+const Do = document.querySelectorAll(".do");
 const re = document.querySelectorAll(".re");
 const mi = document.querySelectorAll(".mi");
 const fa = document.querySelectorAll(".fa");
@@ -16,42 +16,52 @@ const la = document.querySelectorAll(".la");
 const si = document.querySelectorAll(".si");
 const DO = document.querySelectorAll(".DO");
 
-do.forEach((button) => {
-    do.addEventListener("clickk", () => {
-    auddo.play();
-});
+console.log(Do)
 
-buttons.forEach((button) => {
-    re.addEventListener("click", () => {
-    audio.play();
-});
-
-buttons.forEach((button) => {
+Do.forEach((button) => {
     button.addEventListener("click", () => {
-    audio.play();
-});
+        console.log("works")
+        auddo.play();
+    })});
 
-buttons.forEach((button) => {
+re.forEach((button) => {
     button.addEventListener("click", () => {
-    audio.play();
-});
+        console.log("works")
+        audre.play();
+    })});
 
-buttons.forEach((button) => {
+mi.forEach((button) => {
     button.addEventListener("click", () => {
-    audio.play();
-});
+        console.log("works")
+        audmi.play();
+    })});
 
-buttons.forEach((button) => {
+fa.forEach((button) => {
     button.addEventListener("click", () => {
-    audio.play();
-});
+        console.log("works")
+        audfa.play();
+    })});
 
-buttons.forEach((button) => {
+sol.forEach((button) => {
     button.addEventListener("click", () => {
-    audio.play();
-});
+        console.log("works")
+        audsol.play();
+    })});
 
-buttons.forEach((button) => {
+la.forEach((button) => {
     button.addEventListener("click", () => {
-    audio.play();
-});
+        console.log("works")
+        audla.play();
+    })});
+
+si.forEach((button) => {
+    button.addEventListener("click", () => {
+        console.log("works")
+        audsi.play();
+    })});
+
+DO.forEach((button) => {
+    button.addEventListener("click", () => {
+        console.log("works")
+        audDO.play();
+    })});
