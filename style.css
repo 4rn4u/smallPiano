@@ -40,6 +40,10 @@ button:hover {
     background-color: rgb(238, 172, 101);
 }
 
+button:active {
+    background-color: black;
+}
+
 .do {
     display: inline-block;
     height: 290px;
